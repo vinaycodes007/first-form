@@ -1,0 +1,36 @@
+*{
+    margin: 0;padding: 0;
+    text-align: center;
+    font-weight: 200;
+}
+.nav{
+    color: whitesmoke;
+    height: 20vh;
+    width: auto;
+    background-color: black;
+}
+.layout{
+    width: auto;
+    height: 60vh;
+    display: flex;
+}
+.main{
+    
+    color: white;
+    background-color: navy;
+    height: 60vh;
+    width: 80vw;
+}
+.left{
+    
+    color: black;
+    background-color: indigo;
+    height: 60vh;
+    width: 20vw;
+}
+.footer{
+    color: black;
+    background-color: aqua;
+    height: 20vh;
+    width: auto;
+}
