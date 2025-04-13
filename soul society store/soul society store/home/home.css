@@ -1,0 +1,142 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: #1b2631 ;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    width:auto;
+    /* border: 2px solid white; */
+
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 10vh;
+    width: 60vw;
+}
+.title{
+    color: white;
+    width: 20vw;
+    height: 10vh;  
+    font-size: xx-large;
+    text-align: center;
+}
+.title:hover{
+    color: #e71832;
+}
+
+.shop{
+    height: 10vh;
+    width: 10vw;
+    position: relative;
+    left: 60px;
+    display: inline-block;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    color: navy;
+    font-size: larger;
+    border-radius: 60px;
+}
+.shop:hover{
+    background-color: lightcoral;
+    color: white;
+}
+a{
+    margin: 10px;
+    font-size: x-large;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: bisque;
+}
+#btn{
+    color: navy;
+}
+
+#gamepad{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    color: white;
+}
+#gamepad:hover{
+    transform: rotate(180deg);
+    
+    
+}
+.text{
+    display: inline-block;
+    font-size: 4em;
+    color: rgb(252, 254, 252);    
+}
+.text1{
+    position: relative;
+    top: -150px;
+    left: 200px; 
+}
+.text2{
+    position: relative;
+    top: -150px;
+    left: 700px;
+}
+main{
+    /* border: 2px solid white; */
+    width: auto;
+    height: 60vh;
+}
+.icon{
+    width: 50px;
+    height: 50px; 
+}
+.cart{
+    position: relative;
+    left: 600px;      
+}
+#icon{
+display: inline-block;
+}
+.target{
+position:relative;
+    left: 850px;
+    top:-100px;
+}
+.par{   
+    width: 200px;   
+    color: white;
+    font-size: larger;  
+}
+.dollar{
+    position:relative;
+    left: 1050px;
+    top: -190px;
+}
+.details{
+    background-color: #0b0e12 ;
+    width: auto;
+    height: 100vh;
+}
+section>h1{
+    display:  inline-block;
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+}
+
+  
+
+
